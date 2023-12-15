@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="dashboard.css">
+  <title>User Dashboard</title>
+</head>
+<body>
+  <header>
+    <h1>User Dashboard</h1>
+    <a href="#" id="logoutBtn">Logout</a>
+  </header>
+
+  <div class="container">
+    <section class="widget" id="timeDateWidget">
+      <h2>Time and Date</h2>
+      <div id="time"></div>
+      <div id="date"></div>
+    </section>
+
+    <section class="widget" id="calendarWidget">
+      <h2>Calendar</h2>
+      <!-- Calendar content goes here -->
+      <div id="calendar"></div>
+    </section>
+
+    <section class="widget" id="mealPlanWidget">
+      <h2>Today's Meal Plan</h2>
+      <!-- Meal plan content goes here -->
+      <ul>
+        <li>Breakfast: Avocado Toast</li>
+        <li>Lunch: Grilled Chicken Salad</li>
+        <li>Dinner: Vegetable Stir-Fry</li>
+      </ul>
+    </section>
+  </div>
+
+  <script src="dashboard.js"></script>
+</body>
+</html>
